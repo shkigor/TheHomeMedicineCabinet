@@ -10,5 +10,15 @@ class Manufacturer {
     String phone
 
     static constraints = {
+        name blank: false
+        address nullable: true
+        phone nullable: true
+        manUrl url: true, nullable: true
+    }
+
+
+    @Override
+    public String toString() {
+        name
     }
 }

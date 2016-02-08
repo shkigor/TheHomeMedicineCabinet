@@ -8,4 +8,9 @@ class AmountType {
 
     static constraints = {
     }
+
+    @Override
+    public String toString() {
+        title
+    }
 }

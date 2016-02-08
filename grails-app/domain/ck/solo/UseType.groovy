@@ -8,4 +8,9 @@ class UseType {
 
     static constraints = {
     }
+
+    @Override
+    public String toString() {
+        title
+    }
 }

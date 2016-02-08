@@ -9,4 +9,9 @@ class Prescription {
     static hasMany = [supplies : Supplies]
     static constraints = {
     }
+
+    @Override
+    public String toString() {
+        title
+    }
 }

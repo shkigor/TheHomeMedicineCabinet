@@ -12,6 +12,7 @@ class Supplies {
     Integer amount              // кол-во
     AmountType amountType       // пачка, бутылка, таблетка, ампула и т.п.
     Float capacity              // емкость - 100мл, 0.75г и т.п.
+    CapacityType capacityType   // г., мл. и т.п.
     Date endDate                // конечная дата хранения
     String instructions         // инструкция
     UseType useType             // применение - под язык, внутренно, наружно и т.п.
@@ -23,5 +24,18 @@ class Supplies {
     static hasMany = [prescription: Prescription]
 
     static constraints = {
+        titleRu blank: false
+        titleUk nullable: true
+        titleEn nullable: true
+        suppliesType blank: false
+        amount nullable: true
+        amountType nullable: true
+        capacity nullable: true
+        capacityType nullable: true
+        endDate nullable: true
+        instructions nullable: true
+        useType nullable: true
+        manufacturer nullable: true
+        percent nullable: true
     }
 }
