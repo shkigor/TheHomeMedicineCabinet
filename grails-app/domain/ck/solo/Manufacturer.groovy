@@ -4,6 +4,7 @@ package ck.solo
  * Производитель
  */
 class Manufacturer {
+
     String name
     String address
     String manUrl
@@ -17,7 +18,6 @@ class Manufacturer {
         phone nullable: true
         manUrl url: true, nullable: true
     }
-
 
     @Override
     public String toString() {

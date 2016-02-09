@@ -1,9 +1,10 @@
 package ck.solo
 
 /**
- * Вид хранения препарата - пачка, бутылка, таблетка, ампула и т.п.
+ * Вид фасовки препарата - пачка, бутылка, таблетка, ампула и т.п.
  */
 class AmountType {
+
     String title
 
     static belongsTo = [Supplies]

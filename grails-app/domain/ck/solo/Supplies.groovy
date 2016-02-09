@@ -4,6 +4,7 @@ package ck.solo
  * Медицинские запасы - содержимое домашней аптечки
  */
 class Supplies {
+
     String title                // название
     String titleEn              // название анг.
     SuppliesGroup suppliesGroup // гормоны, витамины, антибиотики, противовирусные препараты, мочегонные
@@ -30,7 +31,7 @@ class Supplies {
         amount nullable: true
         amountType nullable: true
         capacity nullable: true
-        endDate nullable: true
+        endDate nullable: false
         instructions nullable: true
         useType nullable: true
         manufacturer nullable: true
