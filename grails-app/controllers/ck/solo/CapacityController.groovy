@@ -1,6 +1,6 @@
 package ck.solo
 
-class CapacityTypeController {
+class CapacityController {
 
     static scaffold = Capacity
 

@@ -24,6 +24,7 @@ class Supplies {
     static constraints = {
         title blank: false
         titleEn nullable: true
+        prescription nullable: true
         suppliesGroup nullable: true
         structure blank: false
         amount nullable: true
@@ -35,5 +36,10 @@ class Supplies {
         manufacturer nullable: true
         percent nullable: true
         imagePath nullable: true
+    }
+
+    @Override
+    public String toString() {
+        title
     }
 }

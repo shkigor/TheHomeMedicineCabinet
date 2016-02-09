@@ -1,6 +1,6 @@
 package ck.solo
 
-class SuppliesTypeController {
+class StructureController {
 
     static scaffold = Structure
 
