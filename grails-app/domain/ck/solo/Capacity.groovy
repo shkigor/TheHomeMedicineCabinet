@@ -4,6 +4,7 @@ package ck.solo
  *  Емкость
  */
 class Capacity {
+
     Float dimension     // 100, 0.75 и т.п.
     String abbreviation // г., мл. и т.п.
 
