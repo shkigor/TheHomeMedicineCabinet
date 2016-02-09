@@ -3,8 +3,10 @@ package ck.solo
 /**
  * Тип препарата - жидкость, трава, мазь, таблетки, гель, порошок и т.п.
  */
-class SuppliesType {
+class Structure {
     String title
+
+    static belongsTo = [Supplies]
 
     static constraints = {
     }

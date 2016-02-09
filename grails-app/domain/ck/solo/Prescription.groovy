@@ -7,6 +7,9 @@ class Prescription {
     String title
 
     static hasMany = [supplies : Supplies]
+
+    static belongsTo = [Supplies]
+
     static constraints = {
     }
 

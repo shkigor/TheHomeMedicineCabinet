@@ -93,7 +93,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: update
+            dbCreate: create-drop
             url: jdbc:h2:./database/devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
             #url: jdbc:mysql://localhost:3306/thehomemedicinecabinet?useUnicode=true&characterEncoding=utf8
             #logSql = true

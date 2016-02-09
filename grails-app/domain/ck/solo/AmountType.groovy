@@ -6,6 +6,8 @@ package ck.solo
 class AmountType {
     String title
 
+    static belongsTo = [Supplies]
+
     static constraints = {
     }
 

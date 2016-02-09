@@ -6,6 +6,8 @@ package ck.solo
 class UseType {
     String title
 
+    static belongsTo = [Supplies]
+
     static constraints = {
     }
 

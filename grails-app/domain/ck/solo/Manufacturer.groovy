@@ -9,6 +9,8 @@ class Manufacturer {
     String manUrl
     String phone
 
+    static belongsTo = [Supplies]
+
     static constraints = {
         name blank: false
         address nullable: true
