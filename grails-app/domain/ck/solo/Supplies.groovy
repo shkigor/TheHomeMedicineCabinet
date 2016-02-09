@@ -30,7 +30,7 @@ class Supplies {
         amount nullable: true
         amountType nullable: true
         capacity nullable: true
-        endDate nullable: true
+        endDate nullable: false
         instructions nullable: true
         useType nullable: true
         manufacturer nullable: true
