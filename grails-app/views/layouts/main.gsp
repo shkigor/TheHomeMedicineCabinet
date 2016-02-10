@@ -8,7 +8,7 @@
         <asset:stylesheet src="application.css"/>
         <asset:stylesheet src="hubbub.css"/>
         <asset:javascript src="application.js"/>
-
+        <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
         <g:layoutHead/>
     </head>
     <body>
