@@ -78,3 +78,9 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = gradleWrapperVersion
 }
+
+grails {
+    agent {
+        enabled = true
+    }
+}
